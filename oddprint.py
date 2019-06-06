@@ -1,0 +1,12 @@
+i=int(input())
+c=i
+a=0
+while c!=0:
+  b=c%10
+  a=(a*10)+b
+  c=c//10
+while a!=0:
+  b=a%10
+  if (b%2)!=0:
+    print(b,end=" ")
+  a=a//10
