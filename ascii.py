@@ -1,3 +1,3 @@
-Input : 9
-Output :
-57
+a=input()
+i=ord(a)
+print (i)
